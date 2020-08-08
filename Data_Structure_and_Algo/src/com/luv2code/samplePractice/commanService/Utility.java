@@ -1,5 +1,7 @@
 package com.luv2code.samplePractice.commanService;
 
+import java.util.List;
+
 public class Utility {
 
     public static void swap(int ar[], int i, int j) {
@@ -15,6 +17,19 @@ public class Utility {
     {
         for (int k = 0; k < array.length; k++) {
             System.out.println(array[k]);
+        }
+    }
+    public static void show(String array[])
+    {
+        for (int k = 0; k < array.length; k++) {
+            System.out.println(array[k]);
+        }
+    }
+
+    public static void show(List<?> list)
+    {
+        for (int k = 0; k < list.size(); k++) {
+            System.out.println(list.get(k));
         }
     }
 }
